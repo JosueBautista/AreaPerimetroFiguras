@@ -4,7 +4,7 @@ import (
 	"fmt"
 	)
 
-type Figura interface {
+type figura interface {
 	Area() string
 	Perimetro() string
 }
